@@ -17,7 +17,7 @@ module.exports = function(deployTarget) {
       disabled: {}
     };
     ENV.git = {
-      repo: `https://ankurg22:${process.env.GH_TOKEN}@github.com/fossasia/badgeyay`,
+      repo: `https://ankurg22:${process.env.GH_TOKEN}@github.com/ankurg22/badgeyay`,
       branch: 'gh-pages',
       commitMessage: 'Travis CI Clean Deploy %@'
     };
